@@ -70,9 +70,7 @@ public class LiDar {
             System.out.println("initialization error");
         } else {
             for (i = 0; i < it; i++) {
-
                 res = lidar_read(fd);
-
                 st = lidar_status(fd);
                 //ver = lidar_version(fd);
                 double in = (double) res * 0.39;

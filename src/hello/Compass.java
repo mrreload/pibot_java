@@ -9,7 +9,6 @@ import com.pi4j.io.i2c.I2CBus;
 import com.pi4j.io.i2c.I2CDevice;
 import com.pi4j.io.i2c.I2CFactory;
 import com.pi4j.io.i2c.I2CFactoryProviderRaspberry;
-import com.pi4j.wiringpi.I2C;
 import java.io.IOException;
 
 /**

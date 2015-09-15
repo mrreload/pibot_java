@@ -32,16 +32,6 @@ public class Hello {
         {
             e.printStackTrace();
         }
-//        try {
-//            FileWriter fw = new FileWriter("/home/pi/test.txt");
-//
-//            for (int i = 0; i < 10; i++) {
-//                fw.write("I wrote this file remotely!!\n");
-//            }
-//
-//            fw.close();
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//        }
+
     }
 }
